@@ -7,7 +7,7 @@ const Footer: React.FC = () => {
         <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
           <div className="col-span-1 md:col-span-1">
             <a href="#" className="text-2xl font-bold">
-              Consulta<span className="text-emerald-500">Pro</span>
+              Luis<span className="text-emerald-500">Villada</span>
             </a>
             <p className="mt-4 text-gray-400">
               Expertos en gestión y planificación organizacional, ayudando a
