@@ -41,3 +41,12 @@ export interface BlogPost {
   author: string;
   image: string;
 }
+
+export interface Study {
+  id: string;
+  title: string;
+  institution: string;
+  year: string;
+  description: string;
+  image: string;
+}
