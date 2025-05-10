@@ -1,9 +1,9 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([typeof document === "object" ? document.currentScript : undefined, {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/_4950f3ae._.js", {
 
 "[project]/lib/utils.ts [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { g: global, d: __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "cn": (()=>cn)
@@ -22,7 +22,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/ui/navigation-menu.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { g: global, d: __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "NavigationMenu": (()=>NavigationMenu),
@@ -195,7 +195,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/ui/sheet.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { g: global, d: __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "Sheet": (()=>Sheet),
@@ -391,7 +391,7 @@ if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelper
 "[project]/components/ui/separator.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { g: global, d: __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "Separator": (()=>Separator)

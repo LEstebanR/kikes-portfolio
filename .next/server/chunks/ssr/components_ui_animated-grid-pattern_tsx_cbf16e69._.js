@@ -3,7 +3,7 @@ module.exports = {
 "[project]/components/ui/animated-grid-pattern.tsx [app-ssr] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname } = __turbopack_context__;
+var { g: global, d: __dirname } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>AnimatedGridPattern)

@@ -1,9 +1,9 @@
-(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push([typeof document === "object" ? document.currentScript : undefined, {
+(globalThis.TURBOPACK = globalThis.TURBOPACK || []).push(["static/chunks/components_ui_animated-grid-pattern_tsx_0b7eb4b8._.js", {
 
 "[project]/components/ui/animated-grid-pattern.tsx [app-client] (ecmascript)": ((__turbopack_context__) => {
 "use strict";
 
-var { g: global, __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
+var { g: global, d: __dirname, k: __turbopack_refresh__, m: module } = __turbopack_context__;
 {
 __turbopack_context__.s({
     "default": (()=>AnimatedGridPattern)
