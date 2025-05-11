@@ -4,7 +4,6 @@ import { cn } from "@/lib/utils";
 import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
-import { GithubLogo } from "./icons";
 import Link from "next/link";
 const About = () => {
   return (
