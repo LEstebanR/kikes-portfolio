@@ -20,7 +20,7 @@ const About = () => {
             <ProfileImage className="mt-3 mb-8 block md:hidden" />
             <h2 className="text-4xl font-bold mb-4 tracking-tight">
               Me apasiona llevar a las empresas y organizaciones a un nivel de
-              excelencia.
+              excelencia
             </h2>
             <p className="text-muted-foreground mb-6 text-justify">
               Consultor con experiencia en la estructuración, planeación y
