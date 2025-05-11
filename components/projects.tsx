@@ -120,13 +120,13 @@ const Projects = () => {
       <div className="max-w-screen-md mx-auto">
         <div className="text-center mb-12">
           <Badge variant="secondary" className="mb-4">
-            Projects
+            Proyectos
           </Badge>
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Featured Work
+            Trabajos destacados
           </h2>
           <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
-            Showcasing some of my best projects and technical achievements
+            Algunos de mis mejores proyectos y logros técnicos
           </p>
         </div>
 

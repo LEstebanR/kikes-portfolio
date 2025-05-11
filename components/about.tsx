@@ -5,7 +5,7 @@ import { Download } from "lucide-react";
 import Image from "next/image";
 import { HTMLAttributes } from "react";
 import { GithubLogo } from "./icons";
-
+import Link from "next/link";
 const About = () => {
   return (
     <section id="about" className="relative py-20 px-6">
@@ -33,14 +33,19 @@ const About = () => {
               DATA ANALITYCS y enfoque basado en procesos.
             </p>
             <div className="flex flex-wrap gap-4 justify-start">
-              <Button className="rounded-full">
+              {/* <Button className="rounded-full">
                 <GithubLogo />
                 View Github
-              </Button>
-              <Button variant="outline" className="rounded-full">
-                <Download />
-                Download CV
-              </Button>
+              </Button> */}
+              <Link
+                href="https://drive.google.com/drive/folders/1xXpN2_0qwfsICohfGzVA2ofTm3qiiAts"
+                target="_blank"
+              >
+                <Button variant="outline" className="rounded-full">
+                  <Download />
+                  Descargar CV
+                </Button>
+              </Link>
             </div>
           </div>
         </div>

@@ -54,28 +54,167 @@ const ExperienceItem = ({
 const Experience = () => {
   const experiences = [
     {
-      title: "Senior Full Stack Developer",
-      company: "TechCorp Solutions",
-      period: "2021 - Present",
+      title: "Consultor de proyectos y planeación sectorial en seguridad",
+      company: "Secretaria de gobierno y seguridad ciudadana",
+      period: "02-2024 - 11-2024",
       description:
-        "Led the development of enterprise-scale web applications, mentored junior developers, and implemented best practices for code quality and performance optimization.",
-      technologies: ["React", "Node.js", "TypeScript", "AWS", "MongoDB"],
+        "Desarrollo de proyectos y planeación sectorial en seguridad, cumplimiento normativo, mejora de procesos y capacitación en seguridad ciudadana en el municipio de Santa Fe de Antioquia.",
+      technologies: [
+        "Planeación sectorial",
+        "Cumplimiento normativo",
+        "Mejora de procesos",
+        "Capacitación en seguridad ciudadana",
+      ],
     },
     {
-      title: "Full Stack Developer",
-      company: "Digital Innovations Inc",
-      period: "2019 - 2021",
+      title: "Consultor plan de desarrollo municipal",
+      company: "Secretaria de planeación y desarrollo territorial",
+      period: "02-2024 - 06-2024",
       description:
-        "Developed and maintained multiple client projects, implemented responsive designs, and integrated third-party APIs for enhanced functionality.",
-      technologies: ["React", "Express.js", "PostgreSQL", "Docker", "Redis"],
+        "Desarrollo del plan de desarrollo municipal 2024-2028, cumplimiento normativo, mejora de procesos y capacitación en planeación sectorial en el municipio de Santa Bárbara, Antioquia.",
+      technologies: [
+        "Planeación sectorial",
+        "Cumplimiento normativo",
+        "Mejora de procesos",
+        "Capacitación en planeación sectorial",
+      ],
     },
     {
-      title: "Frontend Developer",
-      company: "WebTech Studios",
-      period: "2018 - 2019",
+      title: "Profesor",
+      company: "Instituto politécnico internacional",
+      period: "02-2023 - 06-2024",
       description:
-        "Created responsive and interactive user interfaces, collaborated with designers, and optimized application performance.",
-      technologies: ["React", "JavaScript", "SASS", "Webpack", "Jest"],
+        "Docente en el área de proyectos y planeación sectorial en la carrera de ingeniería de producción.",
+      technologies: ["Docencia", "Enseñanza", "Planeación sectorial"],
+    },
+    {
+      title: "Gerente territorial de gobierno",
+      company: "Secretaria de gobierno y gestión del gabinete",
+      period: "02-2022 - 12-2023",
+      description:
+        "Gestión de proyectos y planeación sectorial en el municipio de Medellín, Antioquia.",
+      technologies: ["Gestión de proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Asesor de proyectos",
+      company: "Secretaria de planeación, infraestructura y desarrollo",
+      period: "02-2022 - 16-2023",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Medellín, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Profesional plneación y gestión de proyectos",
+      company: "Secretaría de desaroolo económico Pascual Bravo",
+      period: "02-2021 - 12-2021",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Medellín, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Consultor de gobierno",
+      company: "Alcaldía Entrerrios",
+      period: "01-2021 - 12-2021",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Entrerríos, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Asesor de seguimiento plan de desarrollo",
+      company: "Alcaldía Hispania",
+      period: "09-2021 - 12-2021",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Hispania, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Consultor plan de desarrolo",
+      company: "Alcaldía La Union",
+      period: "03-2020 - 06-2021",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de La Union, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Asesor modelo de planeación y gestión de proyectos",
+      company: "Alcaldía Salgar",
+      period: "03-2020 - 12-2021",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Salgar, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Consultor de proyectos y planeación sectorial de seguridad",
+      company: "Alcaldía Entrerríos",
+      period: "05-2020 - 08-2020",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Entrerríos, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Consultor de planeación estratégica",
+      company: "KODEMPRO",
+      period: "01-2019 - 12-2019",
+      description:
+        "Asesoría en planeación estratégica en el municipio de Medellín, Antioquia.",
+      technologies: ["Planeación estratégica"],
+    },
+    {
+      title: "Consultor de planeación sectorial provincia PAP",
+      company: "UdeM",
+      period: "11-2019 - 12-2019",
+      description:
+        "Asesoría en planeación sectorial en la provincia de PAP, Antioquia.",
+      technologies: ["Planeación sectorial"],
+    },
+    {
+      title: "Asesor proyectos sistema general de regalías",
+      company: "Alcaldía Santa Fe de Antioquia",
+      period: "01-2019 - 12-2019",
+      description:
+        "Asesoría en proyectos y planeación sectorial en el municipio de Santa Fe de Antioquia, Antioquia.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title:
+        "Director de producto, proceso y consultoría proyectos e inteligencia de negocio",
+      company: "MyT Consulting SA",
+      period: "06-2018 - 12-2020",
+      description:
+        "Desarrollo de proyectos y planeación sectorial en seguridad, cumplimiento normativo, mejora de procesos y capacitación en seguridad ciudadana.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Director de banco de programas y proyectos",
+      company: "Alcaldía Santa Bárbara",
+      period: "01-2016 - 05-2018",
+      description:
+        "Desarrollo de proyectos y planeación sectorial en seguridad, cumplimiento normativo, mejora de procesos y capacitación en seguridad ciudadana.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Coordinador CEDI logistica, calidad, procesos y proyectos",
+      company: "CILES SAS",
+      period: "04-2015 - 12-2015",
+      description:
+        "Desarrollo de proyectos y planeación sectorial en seguridad, cumplimiento normativo, mejora de procesos y capacitación en seguridad ciudadana.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Coordinador logistico, planeación y procesos",
+      company: "Everfit",
+      period: "11-2014 - 02-2015",
+      description:
+        "Desarrollo de proyectos y planeación sectorial en seguridad, cumplimiento normativo, mejora de procesos y capacitación en seguridad ciudadana.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
+    },
+    {
+      title: "Coordinador logistico, planeación y operaciones",
+      company: "Grupo área logística-utsourcing Renault SOFASA y AUTECO",
+      period: "07-2014 - 11-2014",
+      description:
+        "Desarrollo de proyectos y planeación sectorial en seguridad, cumplimiento normativo, mejora de procesos y capacitación en seguridad ciudadana.",
+      technologies: ["Asesoría en proyectos", "Planeación sectorial"],
     },
   ];
 
@@ -84,13 +223,13 @@ const Experience = () => {
       <div className="max-w-screen-md mx-auto">
         <div className="text-center mb-12">
           <Badge variant="secondary" className="mb-4">
-            Experience
+            Experiencia
           </Badge>
           <h2 className="text-4xl sm:text-5xl font-bold tracking-tight">
-            Professional Journey
+            Trayectoria Profesional
           </h2>
           <p className="text-muted-foreground mt-2 sm:mt-4 text-lg">
-            A timeline of my professional growth and key achievements
+            Una cronología de mi crecimiento profesional y logros clave
           </p>
         </div>
 
