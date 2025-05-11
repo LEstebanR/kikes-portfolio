@@ -11,6 +11,7 @@ interface ProjectCardProps {
   technologies: string[];
   liveUrl?: string;
   githubUrl?: string;
+  date: string;
 }
 
 const ProjectCard = ({
@@ -20,6 +21,7 @@ const ProjectCard = ({
   technologies,
   liveUrl,
   githubUrl,
+  date,
 }: ProjectCardProps) => {
   return (
     <div className="group relative flex flex-col overflow-hidden rounded-xl border border-accent transition-all hover:border-primary/50">
@@ -36,6 +38,8 @@ const ProjectCard = ({
       {/* Content */}
       <div className="flex-1 flex flex-col p-6">
         <h3 className="text-xl font-semibold mb-2">{title}</h3>
+        <p className="text-muted-foreground mb-4">{date}</p>
+
         <p className="text-muted-foreground mb-4">{description}</p>
 
         {/* Technologies */}
@@ -78,40 +82,85 @@ const ProjectCard = ({
 const Projects = () => {
   const projects = [
     {
-      title: "E-Commerce Platform",
+      title: "Grupo de investigación GIVIP",
+      description: "Grupo de in vestigación de la Universidad de Antioquia",
+      image: "/project.jpg",
+      technologies: ["Investigación", "Desarrollo", "Academia"],
+      date: "2018",
+    },
+
+    {
+      title: "Cooperación Internacional Dotación Locales Plaza de Mercado",
       description:
-        "A full-featured e-commerce platform with real-time inventory management, payment processing, and admin dashboard.",
-      image: "/placeholder.svg",
-      technologies: ["Next.js", "TypeScript", "Stripe", "Prisma", "PostgreSQL"],
-      liveUrl: "https://ecommerce-demo.com",
-      githubUrl: "https://github.com/username/ecommerce",
+        "Formulación del proyecto para ser ejecutado en el municipio de Santa Bárbara con el apoyo de la embajada de Turquía.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Formulación"],
+      date: "2017",
     },
     {
-      title: "AI Task Manager",
+      title: "50 Mil mejores casas",
       description:
-        "Smart task management app that uses AI to categorize, prioritize, and suggest optimal task scheduling.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Python", "TensorFlow", "FastAPI", "MongoDB"],
-      liveUrl: "https://ai-taskmanager.com",
-      githubUrl: "https://github.com/username/ai-taskmanager",
+        "Proyecto para la mejoración de viviendas en el municipio de Santa Bárbara.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Viviendas"],
+      date: "2016",
     },
     {
-      title: "Real-time Chat Application",
+      title: "Centro de Integración Ciudadana",
       description:
-        "Feature-rich chat application with real-time messaging, file sharing, and video calls.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Socket.io", "WebRTC", "Node.js", "Redis"],
-      liveUrl: "https://chatapp-demo.com",
-      githubUrl: "https://github.com/username/chat-app",
+        "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Viviendas"],
+      date: "2016",
     },
     {
-      title: "AI Image Generator",
+      title: "Compactador basura",
       description:
-        "An AI image generator that uses a model to generate images based on a prompt.",
-      image: "/placeholder.svg",
-      technologies: ["React", "Next.js", "Tailwind CSS", "Shadcn UI"],
-      liveUrl: "https://ai-image-generator.com",
-      githubUrl: "https://github.com/username/ai-image-generator",
+        "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Ambiental"],
+      date: "2016",
+    },
+    {
+      title: "Cancha municipal en grama sintética",
+      description:
+        "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Deporte"],
+      date: "2016",
+    },
+    {
+      title: "Consrucción urbanización El balcón",
+      description:
+        "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara junto a FINDETER.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Viviendas"],
+      date: "2016",
+    },
+    {
+      title:
+        "Construcción y adecuación placas polideportivas y gimnasio al aire libre",
+      description:
+        "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Deporte"],
+      date: "2016",
+    },
+    {
+      title: "Construcción PTAR y sistema de alcantarillado combinado",
+      description:
+        "Formulación del p  royecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Deporte"],
+      date: "2016",
+    },
+    {
+      title: "Construcción Muro de contención",
+      description:
+        "Formulación del proyecto para la mejora de la infraestructura del municipio de Santa Bárbara para la entidad DAPARD.",
+      image: "/project.jpg",
+      technologies: ["Desarrollo", "Prevención"],
+      date: "2016",
     },
   ];
 
