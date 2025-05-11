@@ -7,7 +7,7 @@ import { HTMLAttributes } from "react";
 import Link from "next/link";
 const About = () => {
   return (
-    <section id="about" className="relative py-20 px-6">
+    <section id="about" className="relative  px-6">
       <div className="max-w-screen-md mx-auto">
         <div className="flex flex-col md:flex-row-reverse gap-12">
           <ProfileImage className="hidden md:block" />
