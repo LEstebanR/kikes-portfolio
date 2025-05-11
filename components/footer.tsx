@@ -9,7 +9,7 @@ const footerLinks = [
     href: "#about",
   },
   {
-    title: "Experience",
+    title: "Experiencia",
     href: "#experience",
   },
   {
