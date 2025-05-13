@@ -16,6 +16,10 @@ const footerLinks = [
     title: "Proyectos",
     href: "#projects",
   },
+  {
+    title: "Educación",
+    href: "#education",
+  },
 ];
 
 const Footer = () => {

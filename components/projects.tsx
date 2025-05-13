@@ -84,7 +84,7 @@ const Projects = () => {
     {
       title: "Grupo de investigación GIVIP",
       description: "Grupo de in vestigación de la Universidad de Antioquia",
-      image: "/project.jpg",
+      image: "/projects/grupo-de-investigacion.jpg",
       technologies: ["Investigación", "Desarrollo", "Academia"],
       date: "2018",
     },
@@ -93,7 +93,7 @@ const Projects = () => {
       title: "Cooperación Internacional Dotación Locales Plaza de Mercado",
       description:
         "Formulación del proyecto para ser ejecutado en el municipio de Santa Bárbara con el apoyo de la embajada de Turquía.",
-      image: "/project.jpg",
+      image: "/projects/plazas-de-mercado.jpg",
       technologies: ["Desarrollo", "Formulación"],
       date: "2017",
     },
@@ -101,7 +101,7 @@ const Projects = () => {
       title: "50 Mil mejores casas",
       description:
         "Proyecto para la mejoración de viviendas en el municipio de Santa Bárbara.",
-      image: "/project.jpg",
+      image: "/projects/mejoramiento-vivienda.jpg",
       technologies: ["Desarrollo", "Viviendas"],
       date: "2016",
     },
@@ -109,7 +109,7 @@ const Projects = () => {
       title: "Centro de Integración Ciudadana",
       description:
         "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
-      image: "/project.jpg",
+      image: "/projects/centro-de-integracion.jpg",
       technologies: ["Desarrollo", "Viviendas"],
       date: "2016",
     },
@@ -117,7 +117,7 @@ const Projects = () => {
       title: "Compactador basura",
       description:
         "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
-      image: "/project.jpg",
+      image: "/projects/compactador.jpg",
       technologies: ["Desarrollo", "Ambiental"],
       date: "2016",
     },
@@ -125,7 +125,7 @@ const Projects = () => {
       title: "Cancha municipal en grama sintética",
       description:
         "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
-      image: "/project.jpg",
+      image: "/projects/cancha.jpg",
       technologies: ["Desarrollo", "Deporte"],
       date: "2016",
     },
@@ -133,7 +133,7 @@ const Projects = () => {
       title: "Consrucción urbanización El balcón",
       description:
         "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara junto a FINDETER.",
-      image: "/project.jpg",
+      image: "/projects/mejoramiento-vivienda.jpg",
       technologies: ["Desarrollo", "Viviendas"],
       date: "2016",
     },
@@ -142,7 +142,7 @@ const Projects = () => {
         "Construcción y adecuación placas polideportivas y gimnasio al aire libre",
       description:
         "Proyecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
-      image: "/project.jpg",
+      image: "/projects/gimnasio.jpg",
       technologies: ["Desarrollo", "Deporte"],
       date: "2016",
     },
@@ -150,7 +150,7 @@ const Projects = () => {
       title: "Construcción PTAR y sistema de alcantarillado combinado",
       description:
         "Formulación del p  royecto para la mejora de la infraestructura del municipio de Santa Bárbara.",
-      image: "/project.jpg",
+      image: "/projects/ptar.jpg",
       technologies: ["Desarrollo", "Deporte"],
       date: "2016",
     },
@@ -158,7 +158,7 @@ const Projects = () => {
       title: "Construcción Muro de contención",
       description:
         "Formulación del proyecto para la mejora de la infraestructura del municipio de Santa Bárbara para la entidad DAPARD.",
-      image: "/project.jpg",
+      image: "/projects/muro.jpg",
       technologies: ["Desarrollo", "Prevención"],
       date: "2016",
     },
