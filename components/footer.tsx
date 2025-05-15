@@ -1,7 +1,8 @@
 import { Separator } from "@/components/ui/separator";
 import Link from "next/link";
-import { BlueSkyLogo, DribbleLogo, GithubLogo, XLogo } from "./icons";
 import { Logo } from "./navbar/logo";
+import { Button } from "./ui/button";
+import { Mail, MessageCircle } from "lucide-react";
 
 const footerLinks = [
   {
@@ -52,17 +53,24 @@ const Footer = () => {
           </span>
 
           <div className="flex items-center gap-5 text-muted-foreground">
-            <Link href="#" target="_blank">
-              <GithubLogo className="h-5 w-5" />
+            <Link href="mailto:lvilladagonzalez0@gmail.com" target="_blank">
+              <Button
+                variant="outline"
+                className="hidden sm:inline-flex rounded-full shadow-none cursor-pointer"
+                size="icon"
+              >
+                <Mail />
+              </Button>
             </Link>
-            <Link href="#" target="_blank">
-              <XLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <BlueSkyLogo className="h-5 w-5" />
-            </Link>
-            <Link href="#" target="_blank">
-              <DribbleLogo className="h-5 w-5" />
+
+            <Link href="https://wa.me/573012707999" target="_blank">
+              <Button
+                variant="outline"
+                className="hidden sm:inline-flex rounded-full shadow-none cursor-pointer"
+                size="icon"
+              >
+                <MessageCircle />
+              </Button>
             </Link>
           </div>
         </div>
