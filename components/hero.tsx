@@ -6,7 +6,7 @@ import { CircleArrowDown, Zap } from "lucide-react";
 import Link from "next/link";
 const Hero = () => {
   return (
-    <div className="relative min-h-screen flex items-center justify-center px-6 pt-6 overflow-hidden">
+    <div className="relative md:min-h-200 min-h-150  flex items-center justify-center px-6 pt-6 overflow-hidden ">
       <AnimatedGridPattern
         numSquares={30}
         maxOpacity={0.1}
